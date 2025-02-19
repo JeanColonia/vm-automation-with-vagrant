@@ -45,5 +45,19 @@ https://www.virtualbox.org/wiki/Downloads
 
 
 
+## Local Apache server
+### Install    
+    sud-apt install -y apache2
+
+### Execute
+    sudo systemctl status apache2
+
+### Local base URL 
+    vagrant ssh
+####
+    ifconfig 
+
+
+
 
 
